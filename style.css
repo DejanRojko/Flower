@@ -985,4 +985,25 @@ body {
   animation-play-state: paused !important;
 }
 
+/* style.css */
+.fancy-text {
+  font-family: 'Cursive', sans-serif;
+  font-size: 3vmin;
+  color: #ff69b4;
+  text-align: center;
+  margin-top: 2vmin;
+  animation: fancy-text-animation 5s infinite;
+}
+
+@keyframes fancy-text-animation {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
